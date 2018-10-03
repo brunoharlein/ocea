@@ -105,11 +105,91 @@ textarea {
    }
    .imgSlide {
      height: auto;
-     width: 20%;
+     width: 100vw;
+   }
+   header {
+     margin-top: 4em;
    }
 
 
-   /* header class */
+   /************************************** DIV ASIDE BLOC */
+
+   /* flexbox aside left and right fixed */
+   .flexAsideLeftAsideRight {
+     width: 100vw;
+     background-color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border-bottom: 1px solid grey;
+     height: 4vh;
+     position: fixed;
+     top: 0;
+     z-index: 99999;
+   }
+    /* border left and righr letter icon */
+    .borderLeftRight {
+      padding: 0.7em;
+      border-left: 1px solid grey;
+      border-right: 1px solid grey;
+    }
+    /* margin left aside i */
+    div aside i {
+      margin: 0.8em;
+    }
+    /* color text aside */
+    .colorI {
+      color: grey;
+    }
+    /* bouton right aside form */
+    aside form a {
+      border: 1px solid #D90368;
+      padding: 0.1em 0.7em 0.1em 0.7em;
+      background-color: #D90368;
+      color: white;
+    }
+    /* margin right bloc aside form */
+    .marginTopForm {
+      margin: 0.4em 15em 0 0;
+    }
+    /* margin left bloc aside */
+    .marginLeftAside {
+      margin: 15em;
+    }
+
+    /****************************************** NAV */
+
+    /* nav ul li style and margin left right */
+    nav ul li {
+      list-style: none;
+      margin: 0 1.1em 0 1.1em;
+    }
+    /* flexbox nav logo and li */
+    .flexNavLogo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      /* background-color: pink; */
+    }
+    /* insert border li + padding  */
+    }
+    .borderRight {
+      border-right: 3px solid black;
+      padding-right: 1em;
+    }
+
+    /* slide and text opacity  */
+    .pOpacity {
+      width: 100vw;
+      height: 20vh;
+      background-color: black;
+      opacity: 0.3;
+    }
+    .colorFont {
+      /* opacity: 1; */
+      color: white;
+    }
+
 
 
    /* main class */
