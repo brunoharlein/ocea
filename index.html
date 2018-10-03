@@ -22,15 +22,20 @@
   <div class="">
     <!-- start left aside -->
     <aside class="">
-      <i><a href="#"></a> </i>
-      <i><a href="#"></a> </i>
-      <i><a href="#"></a> </i>
+      <i class="fab fa-facebook-f"><a href="https://www.facebook.com/oceaclub"></a></i>
+      <i class="far fa-envelope"><a href="#"></a></i>
+      <i class="fas fa-map-marker-alt"><a href="#"></a></i>
     </aside>
     <!-- start right aside -->
     <aside class="">
-      <form class="" action="index.html" method="post">
-        <input type="text" name="" value="">
-        <a href="#"></a>
+      <form action="/action_page.php">
+       <label for="">Réserver :</label>
+       <select name="ocea">
+        <option value="">Une séance d'atelier</option>
+        <option value="">Un cours de badminton</option>
+        <option value="">Une séance U.V.</option>
+       </select>
+       <a href="#">GO</a>
       </form>
     </aside>
   </div>
@@ -40,19 +45,42 @@
     <!-- start nav -->
     <nav>
       <ul>
-        <li><img src="" alt=""><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
+        <li><img src="img/logo.png" alt="logo"><a href="http://www.oceaclub.com/"></a></li>
+        <li><a href="#">SPORT</a></li>
+        <li><a href="#">ESTHETIQUE</a></li>
+        <li><a href="#">CENTRE U.V.</a></li>
+        <li><a href="#">NOUS CONTACTER</a></li>
       </ul>
     </nav>
 
     <!-- start slider and P opacity -->
     <div class="">
-      <img src="" alt="">
+      <img class="mySlides imgSlide" src="img/slide/slide1.jpg" alt="slide1">
+      <img class="mySlides imgSlide" src="img/slide/slide2.jpg" alt="slide2">
+      <img class="mySlides imgSlide" src="img/slide/slide3.jpg" alt="slide3">
+      <img class="mySlides imgSlide" src="img/slide/slide4.jpg" alt="slide4">
+
       <div class="">
-        <p></p>
+        <script>
+         var myIndex = 0;
+         carousel();
+
+         function carousel() {
+           var i;
+           var x = document.getElementsByClassName("mySlides");
+           for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";
+           }
+           myIndex++;
+           if (myIndex > x.length) {myIndex = 1}
+           x[myIndex-1].style.display = "block";
+           setTimeout(carousel, 2000); // Change image every 2 seconds
+           }
+        </script>
+        <p>«<strong>Nous sommes</strong> <a href="http://www.oceaclub.com/">Ocea</a>. Nous représentons fièrement la pratique du fitness sur Lille et ses alentours.<br>
+        Le sport est notre métier mais c'est avant tout <strong>notre passion</strong>. Nous sommes un grand club - mais à taille humaine - où chacun des membres de notre grande famille se met au service de notre lutte contre la sédentarité.<br>
+        <strong>Vous satisfaire est notre priorité</strong> de tous les jours. Nous ne vous proposons pas de cours sur écran mais <strong>plus de 100 cours collectifs par semaine</strong> encadrés par des éducateurs sportifs diplômés.<br>
+        Nous connaissons les prénoms de nos adhérents. Nous sommes des passionnés. Nous sommes <a href="http://www.oceaclub.com/">Ocea</a>.»                       -Bienvenue!</p>
       </div>
     </div>
   </header>
@@ -62,33 +90,35 @@
   <main>
   <!-- start pink section with 4 icons-->
    <section>
-    <h1></h1>
+    <h1>Ocea Sport</h1>
     <div class="">
       <div class="">
-        <p></p>
-        <p></p>
+        <p>7/7</p>
+        <p>Un club ouvert <strong>7 jours sur 7</strong></p>
       </div>
       <div class="">
-        <i></i>
-        <p></p>
+        <i class="far fa-calendar-alt"></i>
+        <p>Plus de <strong>100 cours collectifs</strong><br>chaque semaine</p>
       </div>
       <div class="">
-        <i></i>
-        <p></p>
+        <i class="fas fa-bicycle"></i>
+        <p><strong>6 salles</strong> dont un studio RPM avec<br>plus de <strong>70 vélos</strong></p>
       </div>
       <div class="">
-        <i></i>
-        <p></p>
+        <i class="fas fa-arrows-alt-h"></i>
+        <p><strong>7000 m2</strong>d'infrastructures</p>
       </div>
     </div>
+    <a href="#">TESTEZ-NOUS !</a>
    </section>
 
    <!-- start bloc video -->
    <div class="">
-     <h2></h2>
-     <p></p>
+     <h2>Notre contrat</h2>
+     <p><strong>Pas de sentiment d'abandon à Ocea</strong> ! Nos nombreux éducateurs sportifs, tous diplômés d'état, sont à votre disposition <strong>pour atteindre vos objectifs, vous conseiller</strong> et<br>
+     <strong>vous guider</strong> tout au long de votre entrainement.</p>
      <div class="">
-       <i></i>
+       <iframe src="https://player.vimeo.com/video/272767022" width="640" height="360" frameborder="0" allowfullscreen></iframe>
      </div>
    </div>
 
@@ -96,46 +126,46 @@
    <section>
      <article class="">
        <header>
-         <h3></h3>
+         <h3>Le planning</h3>
        </header>
-       <img src="" alt="">
-       <p></p>
-       <a href="#"></a>
+       <img src="img/smallPict/1.jpg" alt="miniPict">
+       <p>Plus de 100 cours collectifs à votre<br>disposition.</p>
+       <a href="#">LE PLANNING</a>
      </article>
      <article class="">
        <header>
-         <h3></h3>
+         <h3>Les cours</h3>
        </header>
-       <img src="" alt="">
-       <p></p>
-       <a href="#"></a>
+       <img src="img/smallPict/2.jpg" alt="miniPict">
+       <p>20 types de cours différents et ce qui<br>se fait de meilleur au monde.</p>
+       <a href="#">LES COURS</a>
      </article>
      <article class="">
        <header>
-         <h3></h3>
+         <h3>Les tarifs</h3>
        </header>
-       <img src="" alt="">
-       <p></p>
-       <a href="#"></a>
+       <img src="img/smallPict/3.jpg" alt="miniPict">
+       <p>Nous avons forcément la meilleur<br>tarif adapté à vos ambitions.</p>
+       <a href="#">LES TARIFS</a>
      </article>
      <article class="">
        <header>
-         <h3></h3>
+         <h3>L'offre découverte</h3>
        </header>
-       <img src="" alt="">
-       <p></p>
-       <a href="#"></a>
+       <img src="img/smallPict/4.jpg" alt="miniPict">
+       <p>A Océa. Votre premiére séance vous<br>est oferte</p>
+       <a href="#">VOIR L'OFFRE</a>
      </article>
    </section>
 
    <!-- start clock and go bloc -->
    <div class="">
      <div class="">
-      <h3></h3>
+      <h3>Les horaires</h3>
        <ul>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Du Lundi au jeudi de <strong>9h</strong> à <strong>21h30</strong></li>
+        <li>Le Vendredi de <strong>9h</strong> à <strong>21h</strong></li>
+        <li>Le Samedi et le Dimanche de <strong>9h</strong> à <strong>20h</strong></li>
        </ul>
        <p></p>
      </div>
@@ -185,7 +215,7 @@
        <header>
          <h3></h3>
        </header>
-       <img src="" alt="">
+       <img src="img/smallPict/5.jpg" alt="miniPict">
        <p></p>
        <a href="#"></a>
      </article>
@@ -193,7 +223,7 @@
        <header>
          <h3></h3>
        </header>
-       <img src="" alt="">
+       <img src="img/smallPict/6.jpg" alt="miniPict">
        <p></p>
        <a href="#"></a>
      </article>
@@ -201,7 +231,7 @@
        <header>
          <h3></h3>
        </header>
-       <img src="" alt="">
+       <img src="img/smallPict/7.jpg" alt="miniPict">
        <p></p>
        <a href="#"></a>
      </article>
@@ -209,7 +239,7 @@
        <header>
          <h3></h3>
        </header>
-       <img src="" alt="">
+       <img src="img/smallPict/8.jpg" alt="miniPict">
        <p></p>
        <a href="#"></a>
      </article>
@@ -217,7 +247,7 @@
        <header>
          <h3></h3>
        </header>
-       <img src="" alt="">
+       <img src="img/smallPict/9.jpg" alt="miniPict">
        <p></p>
        <a href="#"></a>
      </article>
@@ -225,7 +255,7 @@
        <header>
          <h3></h3>
        </header>
-       <img src="" alt="">
+       <img src="img/smallPict/10.jpg" alt="miniPict">
        <p></p>
        <a href="#"></a>
      </article>
@@ -233,7 +263,7 @@
        <header>
          <h3></h3>
        </header>
-       <img src="" alt="">
+       <img src="img/smallPict/11.jpg" alt="miniPict">
        <p></p>
        <a href="#"></a>
      </article>
@@ -241,7 +271,7 @@
        <header>
          <h3></h3>
        </header>
-       <img src="" alt="">
+       <img src="img/smallPict/12.jpg" alt="miniPict">
        <p></p>
        <a href="#"></a>
      </article>
@@ -266,7 +296,7 @@
 
    <!-- start cover pict UV -->
    <div class="">
-     <img src="" alt="">
+     <img src="img/cover/sun.jpg" alt="sunPict">
    </div>
 
    <!-- start orange bloc with 4 icons  -->
@@ -304,7 +334,7 @@
        <header>
          <h3></h3>
        </header>
-       <img src="" alt="">
+       <img src="img/smallPict/13.jpg" alt="miniPict">
        <p></p>
        <a href="#"></a>
      </article>
@@ -312,7 +342,7 @@
        <header>
          <h3></h3>
        </header>
-       <img src="" alt="">
+       <img src="img/smallPict/14.jpg" alt="miniPict">
        <p></p>
        <a href="#"></a>
      </article>
@@ -320,7 +350,7 @@
        <header>
          <h3></h3>
        </header>
-       <img src="" alt="">
+       <img src="img/smallPict/15.jpg" alt="miniPict">
        <p></p>
        <a href="#"></a>
      </article>
@@ -328,7 +358,7 @@
        <header>
          <h3></h3>
        </header>
-       <img src="" alt="">
+       <img src="img/smallPict/16.jpg" alt="miniPict">
        <p></p>
        <a href="#"></a>
      </article>

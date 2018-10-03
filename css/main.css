@@ -100,6 +100,13 @@ textarea {
 
 
    /* commun rules */
+   .mySlides {
+     display:none;
+   }
+   .imgSlide {
+     height: auto;
+     width: 20%;
+   }
 
 
    /* header class */
