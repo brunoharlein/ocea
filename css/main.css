@@ -127,6 +127,9 @@ article p {
 span.color {
   color: #ed008c;
 }
+section p {
+  color: white;
+}
 
 /************************************** DIV ASIDE BLOC */
 /* flexbox aside left and right fixed */
@@ -325,9 +328,11 @@ nav ul li a:hover {
 /* end pink bloc 4 articles */
 
 /* start clock and go bloc  */
+
 #paddingClockAndGo {
   padding: 1em 0 1em 0;
   margin-right: 34.5em;
+  margin-bottom: 2em;
 }
 .firstBlocSCAGB {
   height: 16vh;
@@ -335,6 +340,46 @@ nav ul li a:hover {
 .secondBlocSCAGB {
   height: 16vh;
   margin-left: 28em;
+}
+/* end clock and go bloc */
+
+/******************* start cover pict massage */
+.purpleBlocUpPicture {
+  height: 4vh;
+  background-color: #af3896;
+}
+.widthCoverMassage {
+  width: 100vw;
+}
+#imgMassage {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+/************* start cover ocea esthetique purple */
+#colorHeihtg {
+  background-color: #af3896;
+  height: 28vh;
+}
+.h2SectionMassage {
+  padding: 1.5em 0 1.5em 0;
+  color: white;
+}
+/* offer bloc bottom purple section */
+.offerBloc {
+  height: 19vh;
+  padding: 2em 0 0 26em;
+}
+
+.flex8Articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #af3896;
+  padding: 4em;
+}
+#colorPurple {
+  background-color: #af3896;
 }
 
 
