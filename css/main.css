@@ -89,7 +89,7 @@ textarea {
    ========================================================================== */
 /* utility class */
 
-
+/* end utility class */
 
 /* commun rules */
 .mySlides {
@@ -121,7 +121,12 @@ main i {
   justify-content: center;
   align-items: center;
 }
-
+article p {
+  padding-top: 0.5em;
+}
+span.color {
+  color: #ed008c;
+}
 
 /************************************** DIV ASIDE BLOC */
 /* flexbox aside left and right fixed */
@@ -239,13 +244,11 @@ nav ul li a:hover {
   height: 40vh;
   background-color: #ed008c;
 }
-
 .pinkSectionFlexBox {
   display: flex;
   justify-content: center;
   margin-bottom: 2em;
 }
-
 .logoPPinkSection {
   font-size: 5em;
   font-weight: bold;
@@ -289,27 +292,51 @@ nav ul li a:hover {
 .iframePosition {
   display: flex;
   justify-content: center;
+  margin-bottom: 2em;
 }
 
 /************************************ pink block 4 articles */
 
 .multiArticleSection {
   width: 19vw;
-  height: 30vh;
-  background-color: yellow;
+  height: 33vh;
+  background-color: #ed008c;
   margin: 0 2em 0 2em;
 }
 .headerArticle {
   margin-top: 0;
   background-color: rgba(0,0,0,0.16);
   color: white;
-  padding-bottom: 0.5em;
+  padding: 0.5em 0 0.5em 0;
   text-align: center;
 }
 .btnMultiArticlePinkSection {
-  border: 1px solid black;
+  border: 1px solid white;
   padding: 0.5em 1em 0.5em 1em;
+  /* width: 9vw; */
+  background-color: white;
+  color: black;
 }
+.btnCenterArticle {
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+}
+/* end pink bloc 4 articles */
+
+/* start clock and go bloc  */
+#paddingClockAndGo {
+  padding: 1em 0 1em 0;
+  margin-right: 34.5em;
+}
+.firstBlocSCAGB {
+  height: 16vh;
+}
+.secondBlocSCAGB {
+  height: 16vh;
+  margin-left: 28em;
+}
+
 
 /* ==========================================================================
    Helper classes
