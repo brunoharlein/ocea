@@ -130,6 +130,17 @@ span.color {
 section p {
   color: white;
 }
+#colorPurple {
+  background-color: #af3896;
+  margin-top: 2em;
+}
+#colorOrange {
+  background-color: #ff8000;
+}
+#topColorUv {
+  height: 4vh;
+  background-color: #ff8000;
+}
 
 /************************************** DIV ASIDE BLOC */
 /* flexbox aside left and right fixed */
@@ -371,7 +382,7 @@ nav ul li a:hover {
   height: 19vh;
   padding: 2em 0 0 26em;
 }
-
+/* flexbox 8 articles  */
 .flex8Articles {
   display: flex;
   flex-wrap: wrap;
@@ -379,18 +390,12 @@ nav ul li a:hover {
   background-color: #af3896;
   padding: 4em;
 }
-#colorPurple {
-  background-color: #af3896;
-  margin-top: 2em;
-}
-#colorOrange {
-  background-color: #ff8000;
-}
-#topColorUv {
-  height: 4vh;
-  background-color: #ff8000;
-}
+/* end cover ocea esthetique  */
 
+
+/*********************************** SUN section  */
+
+/* p bottom sun section danger uv light */
 .pBottomSunSection {
   height: 10vh;
   background-color: #ff8000;
