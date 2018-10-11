@@ -1,19 +1,16 @@
 /*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
-
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
-
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
 html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
 /*
@@ -25,28 +22,26 @@ html {
  *
  * Customize the background color to match your design.
  */
-
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 /*
  * A better looking default horizontal rule
  */
-
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 /*
@@ -54,77 +49,370 @@ hr {
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
-
 audio,
 canvas,
 iframe,
 img,
 svg,
 video {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 /*
  * Remove default fieldset styles.
  */
-
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*
  * Allow only vertical resizing of textareas.
  */
-
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
-
 .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   /* utility class */
+/* utility class */
+
+/* end utility class */
+
+/* commun rules */
+.mySlides {
+  display: none;
+}
+.imgSlide {
+  height: auto;
+  width: 100vw;
+}
+header {
+  margin-top: 4em;
+}
+h1 {
+  margin: 0;
+  text-align: center;
+  color: white;
+  padding: 1em 0 1em 0;
+}
+/* main icons color */
+main i {
+  color: white;
+}
+.smallPict {
+  width: 19vw;
+  height: auto;
+}
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+article p {
+  padding-top: 0.5em;
+}
+span.color {
+  color: #ed008c;
+}
+section p {
+  color: white;
+}
+#colorPurple {
+  background-color: #af3896;
+  margin-top: 2em;
+}
+#colorOrange {
+  background-color: #ff8000;
+}
+#topColorUv {
+  height: 4vh;
+  background-color: #ff8000;
+}
+
+/************************************** DIV ASIDE BLOC */
+/* flexbox aside left and right fixed */
+.flexAsideLeftAsideRight {
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid grey;
+  height: 4vh;
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+}
+
+/* border left and righr letter icon */
+.borderLeftRight {
+  padding: 0.7em;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+/* margin left aside i */
+div aside i {
+  margin: 0.8em;
+  color: grey;
+}
+
+div aside i:hover {
+  color: black;
+}
+
+/* color text aside */
+.colorI {
+  color: grey;
+}
+
+/* bouton right aside form */
+aside form a {
+  border: 1px solid #ed008c;
+  padding: 0.1em 0.7em 0.1em 0.7em;
+  background-color: #ed008c;
+  color: white;
+}
+
+/* margin right bloc aside form */
+.marginTopForm {
+  margin: 0.4em 15em 0 0;
+}
+
+/* margin left bloc aside */
+.marginLeftAside {
+  margin: 15em;
+}
+
+/****************************************** NAV */
+/* nav ul li style and margin left right */
+nav ul li {
+  list-style: none;
+  margin: 0 1.1em 0 1.1em;
+}
+
+/* flexbox nav logo and li */
+.flexNavLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 11em;
+  margin-top: 4em;
+}
+
+/* insert border li + padding  */
+.borderRight {
+  border-right: 3px solid black;
+  padding-right: 1em;
+}
+
+/* slide and text opacity  */
+.pOpacity {
+  width: 100vw;
+  height: auto;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+
+.colorFont a {
+  color: #ed008c;
+}
+
+.topP {
+  position: relative;
+  height: 60vh;
+  /* margin-top: 2em; */
+  width: 100vw;
+  overflow: hidden;
+}
+
+/* nav a color hover color and none decoration */
+nav ul li a {
+  color: black;
+}
+
+nav ul li a:hover {
+  color: #ed008c;
+  text-decoration: none;
+}
+
+/******************************************************** main class */
+/* Section ocea sport (pink) */
+.pinkSectionOceaSport {
+  width: 100vw;
+  height: 40vh;
+  background-color: #ed008c;
+}
+.pinkSectionFlexBox {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.logoPPinkSection {
+  font-size: 5em;
+  font-weight: bold;
+  color: white;
+  margin-top: -11%;
+}
+.centerTxt {
+  text-align: center;
+  margin: 0 2em 0 2em;
+}
+/* boutton creation and hover function (pink section) */
+.btnPinkSection {
+  text-align: center;
+  border-radius: 4px;
+  width: 10vw;
+  height: 4vh;
+  background-color: #ffff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.colorBtn {
+  color: black;
+}
+.colorBtn:hover {
+  text-decoration: none;
+  color: black;
+}
+/* end pink section main */
+
+/**************************** "notre contrat" section main */
+/* text bloc */
+.textAlign {
+  width: 65vw;
+  height: 15vh;
+  margin: auto;
+  margin-top: 2em;
+}
+/* vimeo video */
+.iframePosition {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+/************************************ pink block 4 articles */
+
+.multiArticleSection {
+  width: 19vw;
+  height: 33vh;
+  background-color: #ed008c;
+  margin: 0 2em 0 2em;
+}
+.headerArticle {
+  margin-top: 0;
+  background-color: rgba(0,0,0,0.16);
+  color: white;
+  padding: 0.5em 0 0.5em 0;
+  text-align: center;
+}
+.btnMultiArticlePinkSection {
+  border: 1px solid white;
+  padding: 0.5em 1em 0.5em 1em;
+  /* width: 9vw; */
+  background-color: white;
+  color: black;
+}
+.btnCenterArticle {
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+/* end pink bloc 4 articles */
+
+/* start clock and go bloc  */
+
+#paddingClockAndGo {
+  padding: 1em 0 1em 0;
+  margin-right: 34.5em;
+  margin-bottom: 2em;
+}
+.firstBlocSCAGB {
+  height: 16vh;
+}
+.secondBlocSCAGB {
+  height: 16vh;
+  margin-left: 28em;
+}
+/* end clock and go bloc */
+
+/******************* start cover pict massage */
+.purpleBlocUpPicture {
+  height: 4vh;
+  background-color: #af3896;
+}
+.widthCoverMassage {
+  width: 100vw;
+}
+#imgMassage {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+/************* start cover ocea esthetique purple */
+#colorHeihtg {
+  background-color: #af3896;
+  height: 28vh;
+}
+.h2SectionMassage {
+  padding: 1.5em 0 1.5em 0;
+  color: white;
+}
+/* offer bloc bottom purple section */
+.offerBloc {
+  height: 19vh;
+  padding: 2em 0 0 26em;
+}
+/* flexbox 8 articles  */
+.flex8Articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #af3896;
+  padding: 4em;
+}
+/* end cover ocea esthetique  */
 
 
-   /* commun rules */
+/*********************************** SUN section  */
 
-
-   /* header class */
-
-
-   /* main class */
-
-
-
-
-
-
-
+/* p bottom sun section danger uv light */
+.pBottomSunSection {
+  height: 10vh;
+  background-color: #ff8000;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
 
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-
 /*
  * Hide visually and from screen readers
  */
-
 .hidden {
-    display: none !important;
+  display: none !important;
 }
 
 /*
@@ -135,17 +423,17 @@ textarea {
  *    causes content to wrap 1 word per line:
  *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
  */
-
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-    white-space: nowrap; /* 1 */
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+  /* 1 */
 }
 
 /*
@@ -153,24 +441,22 @@ textarea {
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
-
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-    white-space: inherit;
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+  white-space: inherit;
 }
 
 /*
  * Hide visually and from screen readers, but maintain layout
  */
-
 .invisible {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 /*
@@ -184,15 +470,16 @@ textarea {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /* ==========================================================================
@@ -200,16 +487,15 @@ textarea {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-
 @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+  /* Style adjustments for viewports that meet the condition */
 }
 
 @media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
@@ -217,73 +503,73 @@ textarea {
    Inlined to avoid the additional HTTP request:
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
-
 @media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster */
-        -webkit-box-shadow: none !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
 
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster */
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
 
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
 
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
+  a[href]:after {
+    content: " ("attr(href) ")";
+  }
 
-    /*
+  abbr[title]:after {
+    content: " ("attr(title) ")";
+  }
+
+  /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
 
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
+  pre {
+    white-space: pre-wrap !important;
+  }
 
-    pre {
-        white-space: pre-wrap !important;
-    }
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
 
-    /*
+  /*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
+  thead {
+    display: table-header-group;
+  }
 
-    thead {
-        display: table-header-group;
-    }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
 
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
 
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
 }
